@@ -1,10 +1,11 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import Navbar from './components/Menubar'
+import Menubar from './components/Menubar'
 
 function App() {
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
+      <Menubar />
       
       {/* This margin-top (mt-24) ensures the content isn't hidden under the fixed Navbar */}
       <main className="mt-24">
