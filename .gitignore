@@ -1,0 +1,15 @@
+# React / Node
+client/node_modules/
+client/dist/
+client/.env
+
+# Spring Boot / Java
+server/target/
+server/.mvn/
+server/*.jar
+server/.idea/
+server/.vscode/
+
+# System
+.DS_Store
+*.log
