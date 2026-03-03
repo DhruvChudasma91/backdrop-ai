@@ -6,7 +6,7 @@ const Menubar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 bg-white/80 backdrop-blur-md border-b border-slate-100 font-outfit">
+    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-4 bg-white/80 backdrop-blur-md border-b border-slate-100 font-outfit">
       
       {/* Logo Section */}
       <div className="flex items-center gap-2 cursor-pointer group">
