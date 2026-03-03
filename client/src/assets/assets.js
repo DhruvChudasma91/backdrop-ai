@@ -66,3 +66,24 @@ export const plans = [
         popular: false
     }
 ]
+
+export const testimonials = [
+    {
+        id: 1,
+        quote: "We are impressed by the AI and think it's the best choice on the market.",
+        author: "Anthoney Walker",
+        handle: "@_webarchitect_"
+    },
+    {
+        id: 2,
+        quote: "Backdrop.ai is leaps and bounds ahead of the competition. A thousand times better. It simplifies the whole process.",
+        author: "Sarah Johnson",
+        handle: "@techlead_sarah"
+    },
+    {
+        id: 3,
+        quote: "We are impressed by its ability to account for pesky, feathery hair without making an image look jagged and amateurish.",
+        author: "Michael Chen",
+        handle: "@coding_newbie"
+    },
+];
