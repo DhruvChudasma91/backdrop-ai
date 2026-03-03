@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import video_banner from './home_video_banner.mp4';
+import people_org from './people_org.png';
+import people from './people.png';
 
 export const assets = {
     logo,
-    video_banner
+    video_banner,
+    people_org,
+    people
 }
 
 export const steps = [
@@ -26,4 +30,12 @@ export const steps = [
         description: `After selecting a new background colour, download your photo and you're done!
                 You can also save your image in the Photoroom App by creating an account.`
     }
-]
+];
+
+export const categories = [
+    "People",
+    "Product",
+    "Animal",
+    "Cars",
+    "Graphics"
+];
