@@ -39,3 +39,30 @@ export const categories = [
     "Cars",
     "Graphics"
 ];
+
+export const plans = [
+    {
+        id: "Basic",
+        name: "Basic Package",
+        price: 499,
+        credits: "100 credits",
+        description: "Perfect for individuals use",
+        popular: false
+    },
+    {
+        id: "Premium",
+        name: "Premium Package",
+        price: 899,
+        credits: "250 credits",
+        description: "Perfect for businesses use",
+        popular: true
+    },
+    {
+        id: "Ultimate",
+        name: "Ultimate Package",
+        price: 1499,
+        credits: "1000 credits",
+        description: "Perfect for enterprises use",
+        popular: false
+    }
+]
