@@ -1,6 +1,7 @@
 import { useState } from "react";
 import {assets} from "../assets/assets";
 import { Menu, X } from 'lucide-react';
+import { Link } from "react-router-dom";
 
 const Menubar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -9,7 +10,7 @@ const Menubar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-4 bg-white/80 backdrop-blur-md border-b border-slate-100 font-outfit">
       
       {/* Logo Section */}
-      <div className="flex items-center gap-2 cursor-pointer group">
+      <Link to="/" className="flex items-center gap-2 cursor-pointer group">
         <img 
           src={assets.logo}
           alt="Backdrop.ai Logo" 
@@ -18,7 +19,7 @@ const Menubar = () => {
         <span className="text-2xl font-black tracking-tight text-slate-900">
           backdrop<span className="text-blue-600">.ai</span>
         </span>
-      </div>
+      </Link>
 
       {/* Action Buttons */}
       <div className="hidden md:flex items-center space-x-4">
